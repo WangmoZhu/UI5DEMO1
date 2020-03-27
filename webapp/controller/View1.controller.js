@@ -14,6 +14,10 @@ sap.ui.define([
 		
 		onBeforeRendering: function(){
 			sap.m.MessageToast.show("onBeforeRendering");
+		},
+		
+		onExit: function(){
+			
 		}
 	});
 });
