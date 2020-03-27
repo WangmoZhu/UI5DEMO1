@@ -10,6 +10,10 @@ sap.ui.define([
 		
 		onAfterRendering: function(){
 			sap.m.MessageToast.show("onAfterRendering");
+		},
+		
+		onBeforeRendering: function(){
+			sap.m.MessageToast.show("onBeforeRendering");
 		}
 	});
 });
