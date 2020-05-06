@@ -34,6 +34,7 @@ sap.ui.define([
 		
 		onUpdate: function(e){
 			
-		}
+		},
+		onAdd: function(e){}
 	});
 });
