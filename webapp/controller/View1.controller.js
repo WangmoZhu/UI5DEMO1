@@ -26,6 +26,14 @@ sap.ui.define([
 		
 		onEdit: function(e){
 			console.log("Update");
+		},
+		
+		
+		
+		
+		
+		onUpdate: function(e){
+			
 		}
 	});
 });
