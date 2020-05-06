@@ -12,6 +12,10 @@ sap.ui.define([
 			sap.m.MessageToast.show("onAfterRendering");
 		},
 		
+		onPress: function(e){
+			console.log("Hello World");
+		},
+		
 		onBeforeRendering: function(){
 			sap.m.MessageToast.show("onBeforeRendering");
 		},
