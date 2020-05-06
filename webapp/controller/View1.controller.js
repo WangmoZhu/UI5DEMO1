@@ -18,6 +18,10 @@ sap.ui.define([
 		
 		onExit: function(){
 			
+		},
+		
+		onEdit: function(e){
+			console.log("Update");
 		}
 	});
 });
